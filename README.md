@@ -1,4 +1,3 @@
-# poetry_analysis
 
 # What is this?
 A poetry recommendation service! This is a very simple tool which, given a (correctly formatted, english-language) poem, recommends to the user another poem with a similar form and structure.
