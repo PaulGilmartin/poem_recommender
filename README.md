@@ -38,5 +38,27 @@ Don't weep, insects -
 Lovers, stars themselves,
 Must part.
 
+
+limerick = """There was a young rustic named Mallory,
+who drew but a very small salary.
+When he went to the show,
+his purse made him go
+to a seat in the uppermost gallery."""
+
+>>> recommend_poem_to_user(limerick)
+Here are some facts about the structure of your original poem:
+
+Rhyming Scheme: (('A', 'A', 'B', 'B', 'A'),)
+Syllable Scheme: (({10}, {10}, {6}, {5}, {11}),)
+Poem Type: LIMERICK
+
+Based on this cirteria, we think you may enjoy the following similarly structured poem:
+
+There was an Old Man of Nantucket
+Who kept all his cash in a bucket.
+His daughter, called Nan,
+Ran away with a man,
+And as for the bucket, Nantucket.
+
 ```
 
