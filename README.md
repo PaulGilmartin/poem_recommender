@@ -20,16 +20,20 @@ Note that the poem will need to contain all english language words (no slang) in
 # Example output
 ```
 from recommender import recommend_poem_to_user
+
 haiku = """An old silent pond...
 A frog jumps into the pond,
 splash! Silence again.
 """
-recommend_poem_to_user(haiku)
+>>> recommend_poem_to_user(haiku)
+
 Here are some facts about the structure of your original poem:
 Rhyming Scheme: (('A', 'A', 'B'),)
 Syllable Scheme: (({5}, {7}, {5}),)
 Poem Type: HAIKU
+
 Based on this cirteria, we think you may enjoy the following similarly structured poem:
+
 Don't weep, insects -
 Lovers, stars themselves,
 Must part.
