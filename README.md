@@ -60,5 +60,28 @@ His daughter, called Nan,
 Ran away with a man,
 And as for the bucket, Nantucket.
 
+tanka = """Beautiful mountains
+Rivers with cold, cold water.
+White cold snow on rocks
+Trees over the place with frost
+White sparkly snow everywhere."""
+recommend_poem_to_user(tanka)
+
+>>> recommend_poem_to_user(tanka)
+
+Here are some facts about the structure of your original poem:
+
+Rhyming Scheme: (('A', 'B', 'C', 'D', 'E'),)
+Syllable Scheme: (({5}, {7}, {5}, {7}, {7}),)
+Poem Type: TANKA
+
+Based on this cirteria, we think you may enjoy the following similarly structured poem:
+
+A cool wind blows in
+With a blanket of silence.
+Straining to listen
+For those first few drops of rain,
+The storm begins in earnest.
+
 ```
 
