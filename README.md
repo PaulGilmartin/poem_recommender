@@ -19,69 +19,20 @@ Note that the poem will need to contain all english language words (no slang) in
 
 # Example output
 ```
-from poetry.recommend_poem import recommend_poem
-recommend_poem("""After killing
-a spider, how lonely I feel
-in the cold of night!""")
+from recommender import recommend_poem_to_user
+haiku = """An old silent pond...
+A frog jumps into the pond,
+splash! Silence again.
+"""
+recommend_poem_to_user(haiku)
+Here are some facts about the structure of your original poem:
+Rhyming Scheme: (('A', 'A', 'B'),)
+Syllable Scheme: (({5}, {7}, {5}),)
+Poem Type: HAIKU
+Based on this cirteria, we think you may enjoy the following similarly structured poem:
+Don't weep, insects -
+Lovers, stars themselves,
+Must part.
 
-Some info about your poem:
-Rhyming Scheme:(), Syllable Scheme:(set([5]), set([6]), set([5])), Form:  HAIKU
-
-A similar poem you might like:
-
-From across the lake,
-Past the black winter trees,
-Faint sounds of a flute.
-
-
-
-recommend_poem("""A cool wind blows in
-With a blanket of silence.
-Straining to listen
-For those first few drops of rain,
-The storm begins in earnest.""")
-
-Some info about your poem:
-Rhyming Scheme:(), Syllable Scheme:(set([5]), set([7]), set([5]), set([7]), set([7])), Form: TANKA
-
-A similar poem you might like:
-
-Subtle hints of spring
-In the wet bark of the tree
-Dew dripping from leaves
-Then runs down the russet trunk
-Pools round the roots and is drunk
-
-
-recommend_poem(""""There was a young rustic named Mallory,
-who drew but a very small salary.
-When he went to the show,
-his purse made him go
-to a seat in the uppermost gallery.""")
-
-Some info about your poem:
-Rhyming Scheme:('A', 'A', 'B', 'B', 'A'), Syllable Scheme:(), Form: LIMERICK
-
-A similar poem you might like:
-There once was a young lady named bright
-Whose speed was much faster than light
-She set out one day
-In a relative way
-And returned on the previous night.
-
-
-recommend_poem("""And then the day came,
-when the risk
-to remain tight
-in a bud
-was more painful
-than the risk
-it took
-to blossom.
-""")
-
-No recommendation found, but here are some facts about your poem:
-
-Rhyming Scheme:('A', 'B', 'C', 'D', 'E', 'B', 'F', 'G'), Syllable Scheme:(set([5]), set([3]), set([4]), set([3]), set([4]), set([3]), set([2]), set([3])), Form: Unclassified
 ```
 
